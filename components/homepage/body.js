@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 export default function Body() {
     return (
@@ -37,12 +37,14 @@ export default function Body() {
                         width={400} // Desired size with correct aspect ratio
                         alt="total-space"
                     />
-                    <Image
-                        src="/images/mandarin-chocolate.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={400} // Desired size with correct aspect ratio
-                        alt="mandarin-chocolate"
-                    />
+                    <Link href="mc">
+                        <Image
+                            src="/images/mandarin-chocolate.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={400} // Desired size with correct aspect ratio
+                            alt="mandarin-chocolate"
+                        />
+                    </Link>
 
                 </div>
                 <div className="">
