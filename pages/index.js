@@ -1,22 +1,17 @@
-import Head from 'next/head'
-import Navbar from '../components/navbar'
-import Header from '../components/homepage/header'
-import Body from '../components/homepage/body'
-import Footer from '../components/footer'
-
+import Layaout from "../components/Layaout"
+import Header from "../components/index/header"
+import Body from "../components/index/body"
 
 export default function Home() {
   return (
     <div>
+    
+      <Layaout page="Accueil">
 
-      <Head>
-        <title>Portfolio</title>
-      </Head>
+        <Header />
+        <Body />
 
-      <Navbar />
-      <Header />
-      <Body />
-      <Footer />
+      </Layaout>
 
     </div>
   )

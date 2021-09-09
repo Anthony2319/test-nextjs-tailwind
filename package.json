@@ -6,20 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "babel": "^6.23.0",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "webpack": "^5.52.0"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "babel-plugin-macros": "2.8.0",
-    "classnames": "2.2.6",
     "postcss": "^8.3.5",
-    "postcss-preset-env": "6.7.0",
-    "prop-types": "15.7.2",
-    "styled-components": "5.1.1",
     "tailwindcss": "^2.2.4"
   }
 }
