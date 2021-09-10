@@ -38,8 +38,6 @@ export default function Navbar() {
             </div>
             </div>
         </div>
-
-        
         <div className="sm:hidden" id="mobile-menu">
             <div className="px-2 pt-2 pb-3 space-y-1">
         
