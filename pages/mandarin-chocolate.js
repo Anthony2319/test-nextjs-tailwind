@@ -6,7 +6,7 @@ export default function MandarinChocolate() {
         <div>
             <Layaout page="Mandarin-Chocolate">
 
-                
+                <Caroussel />
                 <Body />
 
             </Layaout>
