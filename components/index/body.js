@@ -16,85 +16,148 @@ export default function Body() {
                 </div>
             </div>
 
-            <div className= "flex flex-col ml-4 mr-4 lg:flex flex-row justify-center  mt-0 mb-0">
+            <div className= "flex flex-col ml-4 mr-4 lg:flex flex-row justify-center">
 
                 <div>
-                        <div className=" relative hover:scale-150">
-                            <div className="absolute inset-0 z-10 w-60 h-24 mt-52 ml-52 text-center flex flex-col items-center justify-center opacity-100 hover: w-60 h-24 mt-52 ml-52 opacity-100 p-8 bg-white bg-opacity-90 duration-300;">
-                                <p className="p-8 bg-">PINK HAIR</p>
-                            </div>
-                            <div className=" relative ">
-                                <Image
-                                    src="/images/pink-hair.jpg" // Route of the image file
-                                    height={400} // Desired size with correct aspect ratio
-                                    width={700} // Desired size with correct aspect ratio
-                                    alt="pink-hair"
-                                    className="flex flex-wrap content-center "
-                                />
-
-                            </div>  
-                       
-                           
-                            
-                        
-                        </div>
-                    <Image
-                        src="/images/future-life.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={700} // Desired size with correct aspect ratio
-                        className="hover:scale-150"
-                        
-                    />
-                    <Image
-                        src="/images/total-space.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={700} // Desired size with correct aspect ratio
-                        className="hover:scale-150"
-                      
-                    />
-                    <Link href="mc">
+                    <div className="relative ">      
                         <Image
-                            src="/images/mandarin-chocolate.jpg" // Route of the image file
+                            src="/images/pink-hair.jpg" // Route of the image file
                             height={400} // Desired size with correct aspect ratio
                             width={700} // Desired size with correct aspect ratio
-                            alt="mandarin-chocolate"
-                            className="hover:scale-150"
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
                         />
-                    </Link>
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12 h-28 bg-white"> 
+                                <span className="text-gray-400 text-sm">DESIGN, ILLUSTRATION</span>
+                                <p className=" text-6xl font-bold">PINK HAIR</p>
+                            </div>
+                        </div> 
+                    </div>
 
+                    <div className="relative ">      
+                        <Image
+                            src="/images/future-life.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={700} // Desired size with correct aspect ratio
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
+                        />
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12 h-28 bg-white"> 
+                                <span className="text-gray-400 text-sm">WEB-SITE</span>
+                                <p className=" text-6xl font-bold">FUTURE LIFE</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div className="relative ">      
+                        <Image
+                            src="/images/total-space.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={700} // Desired size with correct aspect ratio
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
+                        />
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12 h-28 bg-white"> 
+                                <span className="text-gray-400 text-sm">ILLUSTRATION</span>
+                                <p className=" text-6xl font-bold">TOTAL SPACE</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <Link href="mc">    
+                        <div className="relative ">      
+                            <Image
+                                src="/images/mandarin-chocolate.jpg" // Route of the image file
+                                height={400} // Desired size with correct aspect ratio
+                                width={700} // Desired size with correct aspect ratio
+                                alt="pink-hair"
+                                className="absolute hover:scale-150"
+                            />
+                            <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                                <div className="mt-28 ml-4  w-11/12 h-4/12 h-35 bg-white"> 
+                                    <span className="text-gray-400 text-sm">DESIGN, ILLUSTRATION</span>
+                                    <p className=" text-5xl font-bold">MANDARIN CHOCOLATE</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </Link>
                 </div>
                 <div className="">
-                    <Image
-                        src="/images/colorful-banana.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={700} // Desired size with correct aspect ratio
-                        alt="colorful-banana"
-                        className="hover:scale-150"
-                    />
-                    <Image
-                        src="/images/amstel-festival.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={700} // Desired size with correct aspect ratio
-                        alt="amstel-festival"
-                        className="hover:scale-150"
-                    />
-                    <Image
-                        src="/images/police-dog.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={700} // Desired size with correct aspect ratio
-                        alt="police-dog"
-                        className="hover:scale-150"
-                    />
-                    <Image
-                        src="/images/activation.jpg" // Route of the image file
-                        height={400} // Desired size with correct aspect ratio
-                        width={700} // Desired size with correct aspect ratio
-                        alt="activation"
-                        className="hover:scale-150"
-                    />
+                    <div className="relative ">      
+                        <Image
+                            src="/images/colorful-banana.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={700} // Desired size with correct aspect ratio
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
+                            />
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12  bg-white"> 
+                                <span className="text-gray-400 text-sm">BRANDING, ILLUSTRATION</span>
+                                <p className=" text-5xl font-bold">COLORFUL BANANA</p>
+                            </div>
+                        </div> 
+                    </div>                
+                    <div className="relative ">      
+                        <Image
+                            src="/images/amstel-festival.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={700} // Desired size with correct aspect ratio
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
+                            />
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12  bg-white"> 
+                                <span className="text-gray-400 text-sm">BRANDING, WEB-SITE</span>
+                                <p className=" text-5xl font-bold">AMSTEL FESTIVAL</p>
+                            </div>
+                        </div> 
+                    </div>                   
+                    <div className="relative ">      
+                        <Image
+                            src="/images/police-dog.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={700} // Desired size with correct aspect ratio
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
+                            />
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12 h-28 bg-white"> 
+                                <span className="text-gray-400 text-sm">ILLUSTRATION</span>
+                                <p className=" text-6xl font-bold">POLICE DOG</p>
+                            </div>
+                        </div> 
+                    </div>                 
+
+                    <div className="relative ">      
+                        <Image
+                            src="/images/activation.jpg" // Route of the image file
+                            height={400} // Desired size with correct aspect ratio
+                            width={700} // Desired size with correct aspect ratio
+                            alt="pink-hair"
+                            className="absolute hover:scale-150"
+                            />
+                        <div className="absolute p-white inset-0 z-10  text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
+                            <div className="mt-28 ml-4  w-11/12 h-3/12 h-28 bg-white"> 
+                                <span className="text-gray-400 text-sm">ILLUSTRATION, WEB-SITE</span>
+                                <p className=" text-6xl font-bold">ACTIVATION</p>
+                            </div>
+                        </div> 
+                    </div> 
                 </div>
 
             </div>
+
+
+
+          
+
+
+
+
+
+
 
             <div className="bg-green-400 text-center flex flex-col pb-20 lg:mt-8 mb-8" >
                 <span className="text-white text-xs font-sans mt-20 mb-2">SO WHAT'S NEXT?</span>
