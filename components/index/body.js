@@ -19,7 +19,7 @@ export default function Body() {
             <div className= "flex flex-col ml-4 mr-4 lg:flex flex-row justify-center">
 
                 <div>
-                    <div className="relative ">      
+                    <div className="relative">      
                         <Image
                             src="/images/pink-hair.jpg" // Route of the image file
                             height={400} // Desired size with correct aspect ratio
@@ -159,7 +159,7 @@ export default function Body() {
 
 
 
-            <div className="bg-green-400 text-center flex flex-col pb-20 lg:mt-8 mb-8" >
+            <div className="bg-green-300 text-center flex flex-col pb-20 lg:mt-8 mb-8" >
                 <span className="text-white text-xs font-sans mt-20 mb-2">SO WHAT'S NEXT?</span>
                 <span className="text-white font-bold text-5xl mt-2 mb-2">ARE YOU READY? </span>
                 <span className="text-black font-bold text-5xl underline mt-2 lg:mb-30 ">LET'S WORK!</span>

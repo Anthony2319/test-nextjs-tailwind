@@ -4,9 +4,8 @@ import Image from 'next/image'
 export default function caroussel() {
     return (
         <div>
-        
 
-            <div className="carousel relative rounded relative overflow-hidden shadow-xl">
+            <div className="carousel rounded relative overflow-hidden shadow-xl">
                 <div className="carousel-inner relative overflow-hidden w-full">
                     <input className="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                     checked="checked"></input>
