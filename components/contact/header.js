@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function header() {
     return (
         <div>
-            <div classNameName="relative bg-cover min-w-full ">
+            <div className="relative bg-cover min-w-full ">
                 <div>
                     <Image
                         src="/images/contact.jpg"
@@ -13,9 +13,9 @@ export default function header() {
                         
                     />
                 </div>
-                <div classNameName="mt-6">
-                    <p classNameName="absolute text-xl text-white uppercase justify-center">so what's next?</p>
-                    <p classNameName="absolute text-6xl text-white uppercase justify-center">contact us</p>
+                <div className="mt-6">
+                    <p className="absolute text-xl text-white uppercase justify-center">so what's next?</p>
+                    <p className="absolute text-6xl text-white uppercase justify-center">contact us</p>
                 </div>
             </div>
 
