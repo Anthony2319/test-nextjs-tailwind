@@ -53,8 +53,22 @@ export default function Home({ projects }) {
                             <div className="mt-28 ml-4  w-11/12 h-3/12 h-28 bg-white">
                                 {projects.map(project => (
                                     <div key={project.id}>
-                                    <span className="text-gray-400 text-sm">{ project.subtitle}</span>
+                                        
+                                    </div>
+                                ))}
+                                {projects.map(project => (
+                                    <div key={project.id}>
+                                    <Image
+                                    src="/images/pink-hair.jpg" // Route of the image file
+                                    height={400} // Desired size with correct aspect ratio
+                                    width={700} // Desired size with correct aspect ratio
+                                    alt="pink-hair"
+                                    className="absolute hover:scale-150"
+                                    />  
                                         <p className=" text-6xl font-bold">{ project.maintitle}</p>
+                                 {project.category.map(category=>(<span className="text-gray-400 text-sm">{ category.name}</span>
+
+                                        ))}
                                     </div>
                                 ))}
 
