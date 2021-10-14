@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const getStaticProps = async () =>{
 
-    const {data} = await axios.get(`http://127.0.0.1:8000/api/projects`);
+    const {data} = await axios.get(`https://back-for-delpoy.herokuapp.com/index.php/api`);
     if (!data) {
         return {
             notFound: true,
