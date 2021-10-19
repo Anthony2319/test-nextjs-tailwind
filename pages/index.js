@@ -6,7 +6,7 @@ import axios from 'axios';
 
 export const getStaticProps = async () =>{
 
-  const {data} = await axios.get(`http://127.0.0.1:8000/api/projects?page=1`);
+  const {data} = await axios.get(`https://pacific-castle-58523.herokuapp.com/index.php/api`);
       if (!data) {
           return {
           notFound: true,
@@ -66,7 +66,7 @@ export default function Home({ projects }) {
                                     className="absolute hover:scale-150"
                                     />  
                                         <p className=" text-6xl font-bold">{ project.maintitle}</p>
-                                 {project.category.map(category=>(<span className="text-gray-400 text-sm">{ category.name}</span>
+                                 {project.client.map(client=>(<span className="text-gray-400 text-sm">{ client.name}</span>
 
                                         ))}
                                     </div>
