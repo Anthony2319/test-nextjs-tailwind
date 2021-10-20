@@ -6,13 +6,12 @@ import axios from 'axios';
 
 export const getStaticProps = async () =>{
 
-  const {data} = await axios.get(`https://pacific-castle-58523.herokuapp.com/index.php/api`);
+  const {data} = await axios.get(`https://pacific-castle-58523.herokuapp.com/index.php/api/projects?page=1`);
       if (!data) {
           return {
           notFound: true,
           }
       }
-      console.log(data);
   return{
       
       props: { projects: data['hydra:member']}
@@ -58,17 +57,14 @@ export default function Home({ projects }) {
                                 ))}
                                 {projects.map(project => (
                                     <div key={project.id}>
-                                    <Image
-                                    src="/images/pink-hair.jpg" // Route of the image file
-                                    height={400} // Desired size with correct aspect ratio
-                                    width={700} // Desired size with correct aspect ratio
-                                    alt="pink-hair"
-                                    className="absolute hover:scale-150"
-                                    />  
+                                        <Image
+                                        src="/images/pink-hair.jpg" // Route of the image file
+                                        height={400} // Desired size with correct aspect ratio
+                                        width={700} // Desired size with correct aspect ratio
+                                        alt="pink-hair"
+                                        className="absolute hover:scale-150"
+                                        />  
                                         <p className=" text-6xl font-bold">{ project.maintitle}</p>
-                                 {project.client.map(client=>(<span className="text-gray-400 text-sm">{ client.name}</span>
-
-                                        ))}
                                     </div>
                                 ))}
 
