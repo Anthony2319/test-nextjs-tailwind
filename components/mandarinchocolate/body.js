@@ -38,11 +38,8 @@ export default function Body() {
 
             <div className="border-b-2 border-gray-200 mt-12 mx-2"></div>
 
-
-
-
             <div className="flex w-full">
-                <div className="">
+                <div className=""> 
                     <button className="text-6xl text-green-300">
                         <span className="">&#x2190;</span>
                     </button>
